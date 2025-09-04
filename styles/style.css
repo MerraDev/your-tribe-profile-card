@@ -3,7 +3,7 @@
 }
 
 html:has(.profile-card) {
-  height: 150vh;
+  height: 100vh;
 }
 
 body:has(.profile-card) {
