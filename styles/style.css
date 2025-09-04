@@ -15,7 +15,7 @@ body:has(.profile-card) {
   color: #0b8eaf;
 }
 
-article.profile-card-example {
+article.profile-card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ article.profile-card-example {
   transition: .25s;
 }
 
-header.profile-card-example-header {
+header.profile-card-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +46,7 @@ header.profile-card-example-header {
 
 }
 
-button.profile-card-example-button {
+button.profile-card-button {
   position: absolute;
   right: 1rem;
   top: 1rem;
