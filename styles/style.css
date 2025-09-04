@@ -3,7 +3,7 @@
 }
 
 html:has(.profile-card) {
-  height: 100vh;
+  height: 110vh;
 }
 
 body:has(.profile-card) {
@@ -26,7 +26,7 @@ article.profile-card {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(255, 230, 0);
-  background: linear-gradient(0deg, rgb(93, 171, 255) 40%, #ffe100 100%);
+  background: linear-gradient(0deg, rgb(98, 215, 251) 40%, #ffe100 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -41,7 +41,7 @@ header.profile-card-header {
   /* Je kunt selectors nesten! */
   h1 {
     margin: 2rem 0 1rem;
-    color: #0b8eaf;
+    color: #000000;
   }
 
 }
