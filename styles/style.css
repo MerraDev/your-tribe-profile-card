@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-html:has(.profile-card-example) {
+html:has(.profile-card) {
   height: 100vh;
 }
 
-body:has(.profile-card-example) {
+body:has(.profile-card) {
   display: flex;
   justify-content: center;
   align-items: center;
