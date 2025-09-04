@@ -21,12 +21,13 @@ article.profile-card {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  width: 50vw;
+  width: 70vw;
   max-width: 25em;
   min-width: 20em;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background: rgb(255, 230, 0);
-  background: linear-gradient(0deg, rgb(98, 215, 251) 40%, #ffe100 100%);
+  background: linear-gradient(to bottom right, rgb(21, 91, 241) 40%, #ffc400 100%);
+
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
