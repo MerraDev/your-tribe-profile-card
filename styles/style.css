@@ -10,7 +10,7 @@ body:has(.profile-card) {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 100vh;
   font-family: open sans;
   color: #000000;
 }
