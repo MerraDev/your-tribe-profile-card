@@ -27,8 +27,8 @@ article.profile-card {
   min-width: 20em;
   padding: 1rem;
   border-radius: 2rem;
-  background: linear-gradient(to bottom right, rgb(51, 171, 251) 40%, #ffc400 100%);
-  box-shadow: 0 0 20px 5px rgba(216, 15, 247, 0.1);
+  background: linear-gradient( rgb(51, 171, 251) 40%, #ffc400 100%);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 
