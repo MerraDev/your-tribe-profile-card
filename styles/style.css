@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 50%;
 }
 
 /* Body centreren */
@@ -76,17 +77,3 @@ header.profile-card-header {
   color: rgb(51, 171, 251);
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
