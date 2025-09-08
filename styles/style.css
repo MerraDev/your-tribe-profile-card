@@ -34,19 +34,20 @@ article.profile-card {
   transition: .25s;
 }
 
-header.profile-card-header h1 {
+header.profile-card-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
 
-  
+  /* Je kunt selectors nesten! */
+  h1 {
     margin: 2rem 0 1rem;
     color: #000000;
   }
 
-
+}
 
 button.profile-card-button {
   position: absolute;
