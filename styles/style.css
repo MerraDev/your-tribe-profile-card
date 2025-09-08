@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 
+  height: 50%;
 }
 
 html:has(.profile-card) {
@@ -61,26 +62,26 @@ button.profile-card-button {
   transform: scale(.8);
   transition: .25s;
 }
-button.profile-card-button:focus {
+button.profile-card-example-button:focus {
   outline: none;
   background: #202592;
 }
-button.profile-card-button svg {
+button.profile-card-example-button svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
   stroke: #4e54c8;
   transition-delay: .25s;
 }
-button.profile-card-button:focus svg {
+button.profile-card-example-button:focus svg {
   stroke: rgba(0,239,255,1);
 }
-button.profile-card-button svg:nth-of-type(2) {
+button.profile-card-example-button svg:nth-of-type(2) {
   opacity: 0;
   transition-delay: 0ms;
 }
 
-.profile-card-img {
+.profile-card-example-img {
   position: relative;
   margin: 1rem;
   width: 10em;
@@ -103,7 +104,7 @@ button.profile-card-button svg:nth-of-type(2) {
 .interesses p {
   margin: 0;
   text-align: center;
-  flex: 1;               
+  flex: 1;                        
 }
 
 .profile-card-example-dl {
@@ -150,11 +151,11 @@ button.profile-card-button svg:nth-of-type(2) {
 }
 
 
-.profile-card p {
+.profile-card-example p {
   margin: 0;
 }
 
-.profile-card > p {
+.profile-card-example > p {
   width: 100%;
   margin-top: 0;
   padding: 3rem 2rem;
@@ -168,25 +169,25 @@ body.is-expanded {
   font-size: 1.15em;
 }
 
-body.is-expanded .profile-card {
+body.is-expanded .profile-card-example {
   width: 60vw;
   max-width: 60vw;
 }
 
-body.is-expanded .profile-card-button svg:first-of-type {
+body.is-expanded .profile-card-example-button svg:first-of-type {
   opacity: 0;
   transition-delay: 0ms;
 }
 
-body.is-expanded .profile-card-button svg:nth-of-type(2) {
+body.is-expanded .profile-card-example-button svg:nth-of-type(2) {
   opacity: 1;
   transition-delay: .25s;
 }
 
-body.is-expanded .profile-card-dl dd {
+body.is-expanded .profile-card-example-dl dd {
   font-size: 1.75em;
 }
 
-body.is-expanded .profile-card-img {
+body.is-expanded .profile-card-example-img {
   width: 15em;
 }
