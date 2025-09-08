@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 
-  height: 50%;
 }
 
 html:has(.profile-card) {
