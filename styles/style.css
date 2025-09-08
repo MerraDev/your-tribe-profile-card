@@ -101,7 +101,11 @@ button.profile-card-example-button svg:nth-of-type(2) {
   padding: 0 1rem;
 }
 
-
+.interesses p {
+  margin: 0;
+  text-align: center;
+  flex: 1;                        
+}
 
 .profile-card-example-dl {
   display: grid;
