@@ -103,6 +103,7 @@ button.profile-card-example-button svg:nth-of-type(2) {
 
 .interesses p {
   margin: 0;
+  position: bottom;
   text-align: center;
   flex: 1;                        
 }
