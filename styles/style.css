@@ -22,7 +22,7 @@ article.profile-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 70vw;
   max-width: 25em;
   min-width: 20em;
