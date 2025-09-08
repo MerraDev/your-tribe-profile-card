@@ -92,6 +92,21 @@ button.profile-card-example-button svg:nth-of-type(2) {
   transition: .25s .15s;
 }
 
+.interesses {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.interesses p {
+  margin: 0;
+  text-align: center;
+  flex: 1;               
+}
+
 .profile-card-example-dl {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
