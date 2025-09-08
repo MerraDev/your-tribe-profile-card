@@ -1,193 +1,92 @@
+/* Algemene resets */
 * {
   box-sizing: border-box;
-
-height: 50%;
+  margin: 0;
+  padding: 0;
 }
 
-html:has(.profile-card) {
-  height: 100vh;
-}
-
-body:has(.profile-card) {
+/* Body centreren */
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
+  font-family: 'Open Sans', sans-serif;
   color: #000000;
+  background: #f5f5f5;
 }
 
+/* Visitekaartje */
 article.profile-card {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   width: 70vw;
   max-width: 25em;
   min-width: 20em;
+  padding: 1rem;
   border-radius: 2rem;
-  background: rgb(255, 230, 0);
   background: linear-gradient(to bottom right, rgb(51, 171, 251) 40%, #ffc400 100%);
-
-  box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
-  transition: .25s;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
 }
 
+/* Header */
 header.profile-card-header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
+  margin-bottom: 1rem;
 
-  /* Je kunt selectors nesten! */
   h1 {
-    margin: 2rem 0 1rem;
-    color: #000000;
+    margin-bottom: 0.25rem;
+    font-size: 1.8rem;
   }
 
+  .subtitle {
+    font-size: 1rem;
+    color: #333;
+  }
 }
 
-button.profile-card-button {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: .25rem;
-  border: 1px;
-  border-radius: 50%;
-  background: rgb(3, 3, 3);
-  transform: scale(.8);
-  transition: .25s;
-}
-button.profile-card-example-button:focus {
-  outline: none;
-  background: #202592;
-}
-button.profile-card-example-button svg {
-  position: absolute;
-  top: calc(1.25rem - 12px);
-  left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
-  transition-delay: .25s;
-}
-button.profile-card-example-button:focus svg {
-  stroke: rgba(0,239,255,1);
-}
-button.profile-card-example-button svg:nth-of-type(2) {
-  opacity: 0;
-  transition-delay: 0ms;
-}
-
+/* Foto */
 .profile-card-img {
-  position: relative;
-  margin: 1rem;
   width: 10em;
   height: auto;
+  border-radius: 50%;
   border: 5px solid #fff;
-  border-radius: 10em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
-  transition: .25s .15s;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+  margin: 1rem 0;
 }
 
+/* Interesses (werk, reizen, gamen) */
 .interesses {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  position: absolute;
-  bottom: 1rem;
-  padding: 0 1rem;
+  width: 80%;
+  margin-top: 1rem;
 }
 
 .interesses p {
-  margin: 0;
   text-align: center;
-  flex: 1;                        
+  flex: 1;
 }
 
-.profile-card-example-dl {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "html-dd css-dd js-dd"
-    "html-dt css-dt js-dt"
-    ;
-  justify-items: center;
-  align-items: start;
-  width: 100%;
-  margin-top: -3rem;
-  margin-bottom: 0;
-  padding: 5rem 0 3rem;
-  text-align: center;
-  background: rgb(255, 230, 0);
-
-  dt {
-    margin-top: .25rem;
-    padding-top: .25rem;
-    border-top: 1px solid rgba(0,0,0,0.3);
-    font-weight: bold;
-    &:nth-of-type(1) {
-      grid-area: html-dt;
-    }
-    &:nth-of-type(2) {
-      grid-area: css-dt;
-      transform: translateY(1rem);
-    }
-    &:nth-of-type(3) {
-      grid-area: js-dt;
-    }
-  }
-
-  dd {
-    margin: 0;
-    padding-left: .3rem;
-    transition: .25s .3s;
-    &:nth-of-type(2) {
-      transform: translateY(1rem);
-    }
-  }
+/* Optionele hover effecten */
+.interesses p:hover {
+  color: rgb(51, 171, 251);
+  cursor: pointer;
 }
 
 
-.profile-card-example p {
-  margin: 0;
-}
 
-.profile-card-example > p {
-  width: 100%;
-  margin-top: 0;
-  padding: 3rem 2rem;
-  border-radius: 0 0 1rem 1rem;
-  text-align: center;
-  background: rgb(255, 230, 0);
-}
 
-/* Deze styles zijn van toepassing als je op de knop klikt */
-body.is-expanded {
-  font-size: 1.15em;
-}
 
-body.is-expanded .profile-card-example {
-  width: 60vw;
-  max-width: 60vw;
-}
 
-body.is-expanded .profile-card-example-button svg:first-of-type {
-  opacity: 0;
-  transition-delay: 0ms;
-}
 
-body.is-expanded .profile-card-example-button svg:nth-of-type(2) {
-  opacity: 1;
-  transition-delay: .25s;
-}
 
-body.is-expanded .profile-card-example-dl dd {
-  font-size: 1.75em;
-}
 
-body.is-expanded .profile-card-example-img {
-  width: 15em;
-}
+
+
+
+
+
