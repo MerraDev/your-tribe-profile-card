@@ -81,7 +81,7 @@ button.profile-card-example-button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
-.profile-card-example-img {
+.profile-card-img {
   position: relative;
   margin: 1rem;
   width: 10em;
