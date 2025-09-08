@@ -28,7 +28,7 @@ article.profile-card {
   min-width: 20em;
   border-radius: 2rem;
   background: rgb(255, 230, 0);
-  background: linear-gradient(to bottom right, rgb(21, 91, 241) 40%, #ffc400 100%);
+  background: linear-gradient(to bottom right, rgb(51, 171, 251) 40%, #ffc400 100%);
 
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
