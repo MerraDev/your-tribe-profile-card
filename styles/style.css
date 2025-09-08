@@ -31,7 +31,6 @@ article.profile-card {
   box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
 }
 
-/* Header */
 header.profile-card-header {
   display: flex;
   flex-direction: column;
@@ -49,7 +48,7 @@ header.profile-card-header {
   }
 }
 
-/* Foto */
+
 .profile-card-img {
   width: 10em;
   height: auto;
@@ -59,10 +58,10 @@ header.profile-card-header {
   margin: 1rem 0;
 }
 
-/* Interesses (werk, reizen, gamen) */
+
 .interesses {
   display: flex;
-  justify-content: space-between;
+  justify-content: bottom;
   width: 80%;
   margin-top: 1rem;
 }
