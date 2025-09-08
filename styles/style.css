@@ -83,7 +83,7 @@ button.profile-card-example-button svg:nth-of-type(2) {
 
 .profile-card-example-img {
   position: relative;
-  top: 2rem;
+  margin: 1rem;
   width: 10em;
   height: auto;
   border: 5px solid #fff;
