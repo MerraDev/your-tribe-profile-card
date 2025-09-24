@@ -3,7 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 50%;
+  height: 20%;
+
 }
 
 /* Body centreren */
@@ -21,7 +22,7 @@ body {
 article.profile-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   width: 70vw;
   max-width: 25em;
@@ -63,9 +64,9 @@ header.profile-card-header {
 /* Interesses (werk, reizen, gamen) */
 .interesses {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 80%;
-  margin-top: 1rem;
+  margin-top: 1rem; 
 }
 
 .interesses p {
