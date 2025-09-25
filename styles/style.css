@@ -53,9 +53,9 @@ header.profile-card-header .subtitle {
 
 /* Profielfoto */
 .profile-card-img {
-  width: 10em;
-  height: auto;
-  border-radius: 15%;
+  width: 200px;     /* breedte */
+  height: 135px; 
+  border-radius: 10%;
   border: 5px solid #fff;
   box-shadow: 0 0 5px rgba(0,0,0,.2);
   margin: 1rem 0;
