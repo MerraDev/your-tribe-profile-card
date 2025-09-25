@@ -25,6 +25,8 @@ article.profile-card {
   justify-content: space-between;
   align-items: center;
   width: 70vw;
+  min-height: 450px;
+  height: auto;
   max-width: 25em;
   min-width: 20em;
   padding: 1rem;
