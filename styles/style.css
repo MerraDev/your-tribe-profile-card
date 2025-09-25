@@ -53,14 +53,17 @@ header.profile-card-header .subtitle {
 
 /* Profielfoto */
 .profile-card-img {
-  width: 200px;     /* breedte */
-  position: center;
-  height: 135px; 
-  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;    /* foto blijft mooi zonder vervormen */
+  border-radius: 12px;  /* afgeronde hoeken */
   border: 5px solid #fff;
   box-shadow: 0 0 5px rgba(0,0,0,.2);
-  margin: 1rem 0;
+
+  margin: 2rem 0;       /* ruimte boven én onder de foto */
+  display: block;       /* samen met flex zorgt dit dat hij netjes in het midden staat */
 }
+
 
 /* Interesses (werk, reizen, gamen) */
 .interesses {
